@@ -1,0 +1,51 @@
+body{
+	background: url(../images/b1.JPG);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: 'Oswald', serif;
+	font-size: 20px;
+     
+}
+
+.trivia-page{
+	height:500px;
+	width:600px;
+	margin:40px;
+	margin-left: 300px;
+	text-align: center;
+}
+
+.well{
+	background-color: #20B2AA;
+}
+
+.answesetparaclass:hover{
+	display: block;
+	border:1px solid black;
+}
+
+.title{
+	position: relative;
+	font-size: 48px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+#startBt{
+	width:80px;
+}
+
+#display-timer{
+	color:red;
+	text-align: center;
+}
+
+#displayquestion,#display-result,#final-result{
+	font-weight:bold;
+}
+
+img{
+	height: 100px;
+	width:100px;
+}
